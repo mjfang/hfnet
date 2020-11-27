@@ -27,6 +27,6 @@ The training can be interrupted at any time using `Ctrl+C` and can be monitored 
 ## Exporting the model for deployment
 
 ```bash
-python3 hfnet/export_model.py config/hfnet_train_distill.yaml hfnet
+python3 hfnet/export_model.py config/hfnet_train_distill.yaml hfnet --exper_name=hfnet
 ```
 will export the model to `$EXPER_PATH/saved_models/hfnet/`.
